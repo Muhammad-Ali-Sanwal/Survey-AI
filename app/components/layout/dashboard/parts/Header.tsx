@@ -17,6 +17,12 @@ const Header = () => {
           <AIInsightsToggle />
           <Button
             className="font-normal h-[40px] cursor-pointer"
+            onClick={() => navigate("/survey")}
+          >
+            Start Survey
+          </Button>
+          <Button
+            className="font-normal h-[40px] cursor-pointer"
             onClick={() => navigate("/survey-builder")}
           >
             <CirclePlus />
